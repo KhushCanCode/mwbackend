@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 app.get("/", (req, res)=>{
-    res.json({message: "hello"});
+    res.json({ message: "MIDDLEWARES" });
 })
 
 app.post("/submit", (req,res)=>{
